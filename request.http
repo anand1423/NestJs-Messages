@@ -1,0 +1,11 @@
+### List of all messages
+GET http://localhost:8000/messages
+
+### Create a new message  with the content "Hello World"
+POST http://localhost:8000/messages 
+content-type: application/json
+
+{"content":"Hello World"}
+
+### Get a message by id (replace XYZ with an actual ID)
+GET http://localhost:8000/messages/7
